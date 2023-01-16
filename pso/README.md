@@ -13,3 +13,11 @@ $$\left \{ \begin{aligned}
 
 where $\mathbf{x} \in \mathbb{R}^n$ is the state variable vector, e.g., state variables in the controller of power-electronic interfaces;  $\mathbf{y} \in \mathbb{R}^m$ is the algebraic variable vector, e.g.,  bus voltage amplitude and angle;
 and $\mathbf k \in \mathbb{R}^d$ represents the control parameter vector to be determined.
+
+The dynamic NMs could have multiple equilibrium points, where  $\boldsymbol{F}=\boldsymbol{0}$ and $\boldsymbol{G}=\boldsymbol{0}$. At one equilibrium point $(\mathbf{x}^{\star},\mathbf{y}^{\star})$, by linearizing the system, we can obtain the small-signal expression as shown in (\ref{eq_linearize}).
+\begin{equation} \label{eq_linearize}
+\mathbf{\Delta\dot{  x}} = 
+\big\{\boldsymbol{F}_\mathbf x(\mathbf k)-\boldsymbol{F}_\mathbf y(\mathbf k) \cdot \boldsymbol{G}^{-1}_\mathbf y(\mathbf k) \cdot \boldsymbol{G}_\mathbf x(\mathbf k) \big\}\boldsymbol{\Delta{ \mathbf x}},
+%\boldsymbol{\dot{ \hat x}} = 
+%\big\{\boldsymbol{f_x(k)}-\boldsymbol{f_y(k)}  \boldsymbol{g^{-1}_y(k)} \boldsymbol{g_x(k)}\big\}\boldsymbol{\dot{ \hat x}},
+\end{equation}
