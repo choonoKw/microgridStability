@@ -6,7 +6,7 @@ A novel eigenvalue-oriented objective function is designed to coordinate the par
 
 Mathematically, the dynamic microgrid system can be modeled by a set of differential-algebraic equations (DAEs) when the power-electronic interfaces are modeled by averaged switch modeling, as given
 
-$$\left { \begin{aligned}
+$$\left \{ \begin{aligned}
 \dot{\mathbf{x}}&=\boldsymbol{F}\big(\mathbf{x},\mathbf{y},\mathbf k\big)\\
 \mathbf{0}&=\boldsymbol{G}\big(\mathbf{x},\mathbf{y},\mathbf k\big), 
 \end{aligned} \right.$$
@@ -18,5 +18,5 @@ The dynamic NMs could have multiple equilibrium points, where  $\boldsymbol{F}=\
 
 $$ 
 \mathbf{\Delta\dot{  x}} = 
-\big\{\boldsymbol{F}_\mathbf x(\mathbf k)-\boldsymbol{F}_\mathbf y(\mathbf k) \cdot \boldsymbol{G}^{-1}_\mathbf y(\mathbf k) \cdot \boldsymbol{G}_\mathbf x(\mathbf k) \big\}\boldsymbol{\Delta{ \mathbf x}},
+\left\{\boldsymbol{F}_\mathbf x(\mathbf k)-\boldsymbol{F}_\mathbf y(\mathbf k) \cdot \boldsymbol{G}^{-1}_\mathbf y(\mathbf k) \cdot \boldsymbol{G}_\mathbf x(\mathbf k) \right\}\boldsymbol{\Delta{ \mathbf x}},
 $$
