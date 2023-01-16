@@ -23,3 +23,4 @@ are the Jacobian matrices with respect to the state variables,
 and $\boldsymbol{F}\_{\mathbf{y}}=\frac{\partial \boldsymbol{F}}{\partial \mathbf{y}} \Big|\_{(\mathbf{x}=\mathbf{x}^{\star},\mathbf y=\mathbf y^{\star})}$ and $\boldsymbol{G}\_{\mathbf{y}}=\frac{\partial \boldsymbol{G}}{\partial \mathbf{y}}\Big|\_{(\mathbf x=\mathbf x^{\star},\mathbf y=\mathbf y^{\star})}$ 
 are the Jacobian matrices with respect to the algebraic variables.
 
+$\boldsymbol{F}_\mathbf x(\mathbf k)-\boldsymbol{F}_\mathbf y(\mathbf k) \cdot \boldsymbol{G}^{-1}_\mathbf y(\mathbf k) \cdot \boldsymbol{G}_\mathbf x(\mathbf k)$ is defined as the state matrix $A \in \mathbb{R}^{n\times n}$ of the dynamic NM system, which is a function of $\mathbf k$.
