@@ -16,9 +16,9 @@ and $\mathbf k \in \mathbb{R}^d$ represents the control parameter vector to be d
 
 The dynamic microgrids could have multiple equilibrium points, where  $\boldsymbol{F}=\boldsymbol{0}$ and $\boldsymbol{G}=\boldsymbol{0}$. At one equilibrium point $(\mathbf{x}^{\star},\mathbf{y}^{\star})$, by linearizing the system, we can obtain the small-signal expression as shown below.
 
-$$\begin{equation}
+$\begin{equation}
 \mathbf{\Delta\dot{  x}}=\left\\{\boldsymbol{F}_\mathbf x(\mathbf k)-\boldsymbol{F}_\mathbf y(\mathbf k) \cdot \boldsymbol{G}^{-1}_\mathbf y(\mathbf k) \cdot \boldsymbol{G}_\mathbf x(\mathbf k)\right\\}\boldsymbol{\Delta{ \mathbf x}},
-\end{equation}$$
+\end{equation}$
 
 where $\boldsymbol{F}\_{\mathbf{x}}=\frac{\partial \boldsymbol{F}}{\partial \mathbf{x}}\Big|\_{(\mathbf x=\mathbf x^{\star},\mathbf y=\mathbf y^{\star})}$ and $\boldsymbol{G}\_{\mathbf{x}}=\frac{\partial \boldsymbol{G}}{\partial \mathbf{x}}\Big|\_{(\mathbf x=\mathbf x^{\star},\mathbf y=\mathbf y^{\star})}$
 are the Jacobian matrices with respect to the state variables, 
