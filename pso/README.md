@@ -18,6 +18,4 @@ The dynamic NMs could have multiple equilibrium points, where  $\boldsymbol{F}=\
 \begin{equation} \label{eq_linearize}
 \mathbf{\Delta\dot{  x}} = 
 \big\{\boldsymbol{F}_\mathbf x(\mathbf k)-\boldsymbol{F}_\mathbf y(\mathbf k) \cdot \boldsymbol{G}^{-1}_\mathbf y(\mathbf k) \cdot \boldsymbol{G}_\mathbf x(\mathbf k) \big\}\boldsymbol{\Delta{ \mathbf x}},
-%\boldsymbol{\dot{ \hat x}} = 
-%\big\{\boldsymbol{f_x(k)}-\boldsymbol{f_y(k)}  \boldsymbol{g^{-1}_y(k)} \boldsymbol{g_x(k)}\big\}\boldsymbol{\dot{ \hat x}},
 \end{equation}
