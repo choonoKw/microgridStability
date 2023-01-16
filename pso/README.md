@@ -16,4 +16,4 @@ and $\mathbf k \in \mathbb{R}^d$ represents the control parameter vector to be d
 
 The dynamic NMs could have multiple equilibrium points, where  $\boldsymbol{F}=\boldsymbol{0}$ and $\boldsymbol{G}=\boldsymbol{0}$. At one equilibrium point $(\mathbf{x}^{\star},\mathbf{y}^{\star})$, by linearizing the system, we can obtain the small-signal expression as shown below.
 
-$$\mathbf{\Delta\dot{  x}}=\{\boldsymbol{F}_\mathbf x(\mathbf k)-\boldsymbol{F}_\mathbf y(\mathbf k) \cdot \boldsymbol{G}^{-1}_\mathbf y(\mathbf k) \cdot \boldsymbol{G}_\mathbf x(\mathbf k) \right\}\boldsymbol{\Delta{ \mathbf x}},$$
+$$\mathbf{\Delta\dot{  x}}=\{\boldsymbol{F}_\mathbf x(\mathbf k)-\boldsymbol{F}_\mathbf y(\mathbf k) \cdot \boldsymbol{G}^{-1}_\mathbf y(\mathbf k) \cdot \boldsymbol{G}_\mathbf x(\mathbf k)\}\boldsymbol{\Delta{ \mathbf x}},$$
