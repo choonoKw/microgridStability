@@ -20,6 +20,6 @@ $$\mathbf{\Delta\dot{  x}}=\left\\{\boldsymbol{F}_\mathbf x(\mathbf k)-\boldsymb
 
 where $\boldsymbol{F}\_{\mathbf{x}}=\frac{\partial \boldsymbol{F}}{\partial \mathbf{x}}\Big|\_{(\mathbf x=\mathbf x^{\star},\mathbf y=\mathbf y^{\star})}$ and $\boldsymbol{G}\_{\mathbf{x}}=\frac{\partial \boldsymbol{G}}{\partial \mathbf{x}}\Big|\_{(\mathbf x=\mathbf x^{\star},\mathbf y=\mathbf y^{\star})}$
 are the Jacobian matrices with respect to the state variables, 
-and $\boldsymbol{F}_{\mathbf{y}}=\frac{\partial \boldsymbol{F}}{\partial \mathbf{y}} \Big|_{(\mathbf{x}=\mathbf{x}^{\star},\mathbf y=\mathbf y^{\star})}$ and $\boldsymbol{G}_{\mathbf{y}}=\frac{\partial \boldsymbol{G}}{\partial \mathbf{y}}\Big|_{(\mathbf x=\mathbf x^{\star},\mathbf y=\mathbf y^{\star})}$ 
+and $\boldsymbol{F}_{\mathbf{y}}=\frac{\partial \boldsymbol{F}}{\partial \mathbf{y}} \Big|\_{(\mathbf{x}=\mathbf{x}^{\star},\mathbf y=\mathbf y^{\star})}$ and $\boldsymbol{G}_{\mathbf{y}}=\frac{\partial \boldsymbol{G}}{\partial \mathbf{y}}\Big|\_{(\mathbf x=\mathbf x^{\star},\mathbf y=\mathbf y^{\star})}$ 
 are the Jacobian matrices with respect to the algebraic variables.
 
