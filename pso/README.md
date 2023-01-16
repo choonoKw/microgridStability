@@ -10,3 +10,6 @@ $$\left \{ \begin{aligned}
 \dot{\mathbf{x}}&=\boldsymbol{F}\big(\mathbf{x},\mathbf{y},\mathbf k\big)\\
 \mathbf{0}&=\boldsymbol{G}\big(\mathbf{x},\mathbf{y},\mathbf k\big), 
 \end{aligned} \right.$$
+
+where $\mathbf{x} \in \mathbb{R}^n$ is the state variable vector, e.g., state variables in the controller of power-electronic interfaces;  $\mathbf{y} \in \mathbb{R}^m$ is the algebraic variable vector, e.g.,  bus voltage amplitude and angle;
+and $\mathbf k \in \mathbb{R}^d$ represents the control parameter vector to be determined.
