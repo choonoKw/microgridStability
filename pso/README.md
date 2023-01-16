@@ -15,7 +15,8 @@ where $\mathbf{x} \in \mathbb{R}^n$ is the state variable vector, e.g., state va
 and $\mathbf k \in \mathbb{R}^d$ represents the control parameter vector to be determined.
 
 The dynamic NMs could have multiple equilibrium points, where  $\boldsymbol{F}=\boldsymbol{0}$ and $\boldsymbol{G}=\boldsymbol{0}$. At one equilibrium point $(\mathbf{x}^{\star},\mathbf{y}^{\star})$, by linearizing the system, we can obtain the small-signal expression as shown in (\ref{eq_linearize}).
-$$ \label{eq_linearize}
+
+$$ 
 \mathbf{\Delta\dot{  x}} = 
 \big\{\boldsymbol{F}_\mathbf x(\mathbf k)-\boldsymbol{F}_\mathbf y(\mathbf k) \cdot \boldsymbol{G}^{-1}_\mathbf y(\mathbf k) \cdot \boldsymbol{G}_\mathbf x(\mathbf k) \big\}\boldsymbol{\Delta{ \mathbf x}},
 $$
