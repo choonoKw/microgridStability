@@ -27,4 +27,4 @@ are the Jacobian matrices with respect to the algebraic variables.
 
 $\boldsymbol{F}\_\mathbf x(\mathbf k)-\boldsymbol{F}\_\mathbf y(\mathbf k) \cdot \boldsymbol{G}\^{-1}\_\mathbf y(\mathbf k) \cdot \boldsymbol{G}\_\mathbf x(\mathbf k)$ is defined as the state matrix $A \in \mathbb{R}^{n\times n}$ of the dynamic microgrid system, which is a function of $\mathbf k$.
 
-The system's small-signal stability is determined by the eigenanalysis of $A$, as expressed in (\ref{Eq_eig}), where  $\lambda_i$ is the $i^\text{th}$ eigenvalue of $A$, and $\mathbf{v}\_i$ is the $i^\text{th}$ right  eigenvector.
+The system's small-signal stability is determined by the eigenanalysis of $A$, where  $\lambda_i$ is the $i^\text{th}$ eigenvalue of $A$, and $\mathbf{v}\_i$ is the $i^\text{th}$ right  eigenvector.
